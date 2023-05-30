@@ -5,7 +5,10 @@ This is the code to reproduce the results in the paper:
 # Running the code from scratch
 
 0. Pre-requisites: Python3 + packages: nltk, numpy, sklearn, Tensorflow (tested in version 1.12.0rc0)
-
+ ```
+ conda create -n tensorflow1.12.0 python=3.6
+ pip install tensorflow==1.12.0
+ ```
 1. Download and ungzip GoogleNews-vectors-negative300.bin.gz. Save the uncompressed GoogleNews-vectors-negative300.bin in the root directory of the repository (same directory as train.py). You can get the file here:
 
     https://github.com/mmihaltz/word2vec-GoogleNews-vectors
